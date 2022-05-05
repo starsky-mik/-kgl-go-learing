@@ -1,6 +1,9 @@
 package main
 
-import "testing"
+import (
+	"fmt"
+	"testing"
+)
 
 func assertEquals(t testing.TB, actual, expected string) {
 	t.Helper()
@@ -40,4 +43,10 @@ func TestSayGreetingsTo(t *testing.T) {
 		expected := "Hello, World!"
 		assertEquals(t, actual, expected)
 	})
+}
+
+func ExampleSayGreetingsTo() {
+	greetings := SayGreetingsTo("Bob", English)
+	fmt.Println(greetings)
+	// Output: Hello, Bob!
 }
