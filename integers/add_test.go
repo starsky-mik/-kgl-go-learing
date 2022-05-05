@@ -9,7 +9,7 @@ func assertEquals(t testing.TB, actual, expected int) {
 	t.Helper()
 
 	if actual != expected {
-		t.Errorf("expected '%d' but got '%d'", actual, expected)
+		t.Errorf("expected '%d' but got '%d'", expected, actual)
 	}
 }
 
