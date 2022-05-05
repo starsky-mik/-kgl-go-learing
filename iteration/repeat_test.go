@@ -1,6 +1,7 @@
 package iteration
 
 import (
+	"fmt"
 	"strings"
 	"testing"
 )
@@ -37,4 +38,10 @@ func TestRepeat(t *testing.T) {
 	t.Run("char repeating negative times", func(t *testing.T) {
 		assertEquals(t, Repeat("m", -5), "")
 	})
+}
+
+func ExampleRepeat() {
+	repeated := Repeat("w", 3)
+	fmt.Println(repeated)
+	// Output: www
 }
