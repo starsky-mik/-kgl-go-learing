@@ -36,3 +36,9 @@ func ExampleAdd() {
 	fmt.Println(sum)
 	// Output 9
 }
+
+func BenchmarkAdd(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		Add(5, 6)
+	}
+}
