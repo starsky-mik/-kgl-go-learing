@@ -40,6 +40,12 @@ func TestRepeat(t *testing.T) {
 	})
 }
 
+func BenchmarkRepeat(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		Repeat("w", 10)
+	}
+}
+
 func ExampleRepeat() {
 	repeated := Repeat("w", 3)
 	fmt.Println(repeated)
