@@ -1,4 +1,4 @@
-package main
+package hello_world
 
 func SayGreetingsTo(name string, language Language) string {
 	prefix := GetGreetingsPrefix(language)
