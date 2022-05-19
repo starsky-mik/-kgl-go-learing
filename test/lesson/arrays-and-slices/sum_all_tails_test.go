@@ -2,8 +2,8 @@ package arrays_and_slices
 
 import (
 	"fmt"
-	testingTools "github.com/starsky-mik/kgl-go-learing/internal/pkg/testing_tools"
-	arraysAndSlices "github.com/starsky-mik/kgl-go-learing/lesson/arrays-and-slices"
+	. "github.com/starsky-mik/kgl-go-learing/internal/pkg/testing_tools"
+	. "github.com/starsky-mik/kgl-go-learing/lesson/arrays-and-slices"
 	"testing"
 )
 
@@ -24,26 +24,26 @@ func TestSumAllTails(t *testing.T) {
 
 	for _, testCase := range testCases {
 		t.Run("check arrays_and_slices.SumAllTails function", func(t *testing.T) {
-			testingTools.AssertDeepEquals(t, arraysAndSlices.SumAllTails(testCase.arrays...), testCase.result)
+			AssertDeepEquals(t, SumAllTails(testCase.arrays...), testCase.result)
 		})
 	}
 
 	t.Run("check arrays_and_slices.SumAllTails function with empty slices list", func(t *testing.T) {
-		actual := arraysAndSlices.SumAllTails()
+		actual := SumAllTails()
 		var expected []int
 
-		testingTools.AssertDeepEquals(t, actual, expected)
+		AssertDeepEquals(t, actual, expected)
 	})
 }
 
 func BenchmarkSumAllTails(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		arraysAndSlices.SumAllTails([]int{1, 2, 3}, []int{2, 3, 4}, []int{3, 4, 5})
+		SumAllTails([]int{1, 2, 3}, []int{2, 3, 4}, []int{3, 4, 5})
 	}
 }
 
 func ExampleSumAllTails() {
-	sum := arraysAndSlices.SumAllTails([]int{1, 2, 3}, []int{2, 3, 4}, []int{3, 4, 5})
+	sum := SumAllTails([]int{1, 2, 3}, []int{2, 3, 4}, []int{3, 4, 5})
 	fmt.Println(sum)
 	// Output [5 7 9]
 }

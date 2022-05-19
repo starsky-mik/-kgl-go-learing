@@ -2,8 +2,8 @@ package arrays_and_slices
 
 import (
 	"fmt"
-	testingTools "github.com/starsky-mik/kgl-go-learing/internal/pkg/testing_tools"
-	arraysAndSlices "github.com/starsky-mik/kgl-go-learing/lesson/arrays-and-slices"
+	. "github.com/starsky-mik/kgl-go-learing/internal/pkg/testing_tools"
+	. "github.com/starsky-mik/kgl-go-learing/lesson/arrays-and-slices"
 	"testing"
 )
 
@@ -22,19 +22,19 @@ func TestSum(t *testing.T) {
 
 	for _, testCase := range testCases {
 		t.Run("check arrays_and_slices.Sum function", func(t *testing.T) {
-			testingTools.AssertEquals(t, arraysAndSlices.Sum(testCase.array), testCase.result)
+			AssertEquals(t, Sum(testCase.array), testCase.result)
 		})
 	}
 }
 
 func BenchmarkSum(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		arraysAndSlices.Sum([]int{1, 2, 3, 4, 5})
+		Sum([]int{1, 2, 3, 4, 5})
 	}
 }
 
 func ExampleSum() {
-	sum := arraysAndSlices.Sum([]int{1, 2, 3, 4, 5})
+	sum := Sum([]int{1, 2, 3, 4, 5})
 	fmt.Println(sum)
 	// Output 15
 }
