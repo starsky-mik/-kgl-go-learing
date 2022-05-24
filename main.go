@@ -1,8 +1,8 @@
 package main
 
 import (
-	. "github.com/starsky-mik/kgl-go-learing/lesson/di"
-	"github.com/starsky-mik/kgl-go-learing/lesson/mocking"
+	. "github.com/starsky-mik/kgd-go-learing/lesson/di"
+	"github.com/starsky-mik/kgd-go-learing/lesson/mocking"
 	"log"
 	"net/http"
 	"os"

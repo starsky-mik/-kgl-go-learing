@@ -2,8 +2,8 @@ package integers
 
 import (
 	"fmt"
-	. "github.com/starsky-mik/kgl-go-learing/internal/pkg/testing_tools"
-	. "github.com/starsky-mik/kgl-go-learing/lesson/integers"
+	. "github.com/starsky-mik/kgd-go-learing/internal/pkg/testing_tools"
+	. "github.com/starsky-mik/kgd-go-learing/lesson/integers"
 	"testing"
 )
 

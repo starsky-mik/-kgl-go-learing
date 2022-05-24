@@ -2,8 +2,8 @@ package iteration
 
 import (
 	"fmt"
-	. "github.com/starsky-mik/kgl-go-learing/internal/pkg/testing_tools"
-	. "github.com/starsky-mik/kgl-go-learing/lesson/iteration"
+	. "github.com/starsky-mik/kgd-go-learing/internal/pkg/testing_tools"
+	. "github.com/starsky-mik/kgd-go-learing/lesson/iteration"
 	"strings"
 	"testing"
 )

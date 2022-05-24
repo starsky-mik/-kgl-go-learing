@@ -1,8 +1,8 @@
 package mocking
 
 import (
-	. "github.com/starsky-mik/kgl-go-learing/internal/pkg/testing_tools"
-	. "github.com/starsky-mik/kgl-go-learing/lesson/mocking"
+	. "github.com/starsky-mik/kgd-go-learing/internal/pkg/testing_tools"
+	. "github.com/starsky-mik/kgd-go-learing/lesson/mocking"
 	"testing"
 	"time"
 )

@@ -2,8 +2,8 @@ package di
 
 import (
 	"bytes"
-	. "github.com/starsky-mik/kgl-go-learing/internal/pkg/testing_tools"
-	. "github.com/starsky-mik/kgl-go-learing/lesson/di"
+	. "github.com/starsky-mik/kgd-go-learing/internal/pkg/testing_tools"
+	. "github.com/starsky-mik/kgd-go-learing/lesson/di"
 	"testing"
 )
 

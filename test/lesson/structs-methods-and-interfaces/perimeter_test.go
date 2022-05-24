@@ -1,8 +1,8 @@
 package structs_methods_and_interfaces
 
 import (
-	. "github.com/starsky-mik/kgl-go-learing/internal/pkg/testing_tools"
-	. "github.com/starsky-mik/kgl-go-learing/lesson/structs-methods-and-interfaces"
+	. "github.com/starsky-mik/kgd-go-learing/internal/pkg/testing_tools"
+	. "github.com/starsky-mik/kgd-go-learing/lesson/structs-methods-and-interfaces"
 	"testing"
 )
 

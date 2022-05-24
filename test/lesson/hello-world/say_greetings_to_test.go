@@ -2,8 +2,8 @@ package hello_world
 
 import (
 	"fmt"
-	. "github.com/starsky-mik/kgl-go-learing/internal/pkg/testing_tools"
-	. "github.com/starsky-mik/kgl-go-learing/lesson/hello-world"
+	. "github.com/starsky-mik/kgd-go-learing/internal/pkg/testing_tools"
+	. "github.com/starsky-mik/kgd-go-learing/lesson/hello-world"
 	"testing"
 )
 

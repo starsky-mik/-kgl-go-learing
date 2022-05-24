@@ -1,8 +1,8 @@
 package pointers_and_errors
 
 import (
-	. "github.com/starsky-mik/kgl-go-learing/internal/pkg/testing_tools"
-	. "github.com/starsky-mik/kgl-go-learing/lesson/pointers-and-errors"
+	. "github.com/starsky-mik/kgd-go-learing/internal/pkg/testing_tools"
+	. "github.com/starsky-mik/kgd-go-learing/lesson/pointers-and-errors"
 	"testing"
 )
 

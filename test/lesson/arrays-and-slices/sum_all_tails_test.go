@@ -2,8 +2,8 @@ package arrays_and_slices
 
 import (
 	"fmt"
-	. "github.com/starsky-mik/kgl-go-learing/internal/pkg/testing_tools"
-	. "github.com/starsky-mik/kgl-go-learing/lesson/arrays-and-slices"
+	. "github.com/starsky-mik/kgd-go-learing/internal/pkg/testing_tools"
+	. "github.com/starsky-mik/kgd-go-learing/lesson/arrays-and-slices"
 	"testing"
 )
 
